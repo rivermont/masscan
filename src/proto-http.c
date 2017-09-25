@@ -118,7 +118,7 @@ http_change_field(unsigned char **inout_header, unsigned header_length,
  ***************************************************************************/
 static const char
 http_hello[] =      "GET / HTTP/1.0\r\n"
-                    "User-Agent: masscan/1.0 (https://github.com/robertdavidgraham/masscan)\r\n"
+                    "User-Agent: (Port scanning for research. Please send a 'GET HTTP/1.0 /masscan/stop' request to this IP to be whitelisted.)\r\n"
                     "Accept: */*\r\n"
                     //"Connection: Keep-Alive\r\n"
                     //"Content-Length: 0\r\n"
